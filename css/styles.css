@@ -1,0 +1,147 @@
+.label-main {
+  background: #FF7572;
+  height: 8rem;
+  margin: 0 0 4rem 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: #FFFBEF;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label-carbs {
+  background: #67BC67;
+  height: 8rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: #FFFBEF;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label-diets {
+  background: #FFBC42;
+  height: 8rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: #FFFBEF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label-water {
+  background: #73D2DE;
+  height: 8rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: #FFFBEF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video {
+  background: #353535;
+  height: auto;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-carbs {
+  background: #67BC67;
+  height: 30rem;
+  margin: 6rem auto;
+  text-align: center;
+  font-size: 2.4rem;
+  color: #FFFBEF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-carbs:hover {
+  background: #549954;
+  transition: all 300ms ease-in-out;
+}
+
+.section-diets {
+  background: #FFBC42;
+  height: 30rem;
+  margin: 6rem auto;
+  text-align: center;
+  font-size: 2.4rem;
+  color: #FFFBEF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-diets:hover {
+  background: #E2A83B;
+  transition: all 300ms ease-in-out;
+}
+
+.section-water {
+  background: #73D2DE;
+  height: 30rem;
+  margin: 6rem auto;
+  text-align: center;
+  font-size: 2.4rem;
+  color: #FFFBEF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-water:hover {
+  background: #64B6C1;
+  transition: all 300ms ease-in-out;
+}
+
+.buttons {
+  margin: 0 auto;
+}
+
+.buttons li {
+  list-style: none;
+  display: inline-block;
+}
+
+.home-button {
+  float: left;
+  background: #67BC67;
+  text-align: center;
+  font-size: 2rem;
+  color: #FFFBEF;
+}
+
+.goto-questions {
+  float: right;
+  background: #67BC67;
+  text-align: center;
+  font-size: 2rem;
+  color: #FFFBEF;
+}
+
+.footer {
+  background: #FF7572;
+  height: 5rem;
+  width: 100%;
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 2.4rem;
+  color: #FFFBEF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
