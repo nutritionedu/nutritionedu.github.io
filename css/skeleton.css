@@ -44,20 +44,20 @@
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
-    width: 85%;
+    width: 90%;
     padding: 0; }
 }
 
 /* For devices larger than 550px */
-@media (min-width: 550px) {
+@media (min-width: 768px) {
   .container {
-    width: 80%; }
+    width: 85%; }
   .column,
   .columns {
-    margin-left: 4%; }
+    margin-left: 2%; }
   .column:first-child,
   .columns:first-child {
-    margin-left: 0; }
+    margin-left: 1%; }
 
   .one.column,
   .one.columns                    { width: 4.66666666667%; }
@@ -73,10 +73,12 @@
   .eleven.columns                 { width: 91.3333333333%; }
   .twelve.columns                 { width: 100%; margin-left: 0; }
 
-  .one-third.column               { width: 30.6666666667%; }
+  .one-third.column               { /*width: 30.6666666667%;*/ width: 31.3%;}
   .two-thirds.column              { width: 65.3333333333%; }
 
   .one-half.column                { width: 48%; }
+  .one-fifth.column               { width: 18%; }
+  .one-fourth.column              { width: 23%; }
 
   /* Offsets */
   .offset-by-one.column,

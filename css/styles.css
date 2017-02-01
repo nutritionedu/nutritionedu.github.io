@@ -1,3 +1,5 @@
+/* LABELS */
+
 .label-main {
   background: #FF7572;
   height: 8rem;
@@ -51,6 +53,8 @@
   align-items: center;
 }
 
+/* VIDEO */
+
 .video {
   background: #353535;
   height: auto;
@@ -58,6 +62,8 @@
   margin: 0 auto;
   text-align: center;
 }
+
+/* HOME SECTIONS */
 
 .section-carbs {
   background: #67BC67;
@@ -110,10 +116,12 @@
   transition: all 300ms ease-in-out;
 }
 
-.carbs-questions {
+/* CARBS CONTROLS */
+
+.carbs-to-questions {
   display: inline-block;
   height: auto;
-  width: 100%;
+  width: 90%;
   padding: 1.5rem;
   color: #67BC67;
   text-align: center;
@@ -128,7 +136,7 @@
   margin-top: 2rem;
 }
 
-.carbs-questions:hover{
+.carbs-to-questions:hover{
   color: #549954;
   background: #EAE7DC;
   transition: all 300ms ease-in-out;
@@ -138,7 +146,7 @@
 .carbs-home {
   display: inline-block;
   height: auto;
-  width: 100%;
+  width: 90%;
   padding: 1.5rem;
   color: #FFFBEF;
   text-align: center;
@@ -160,10 +168,12 @@
   outline: 0.5rem solid #549954;
 }
 
-.diets-questions {
+/* DIETS CONTROLS */
+
+.diets-to-questions {
   display: inline-block;
   height: auto;
-  width: 100%;
+  width: 90%;
   padding: 1.5rem;
   color: #FFBC42;
   text-align: center;
@@ -178,7 +188,7 @@
   margin-top: 2rem;
 }
 
-.diets-questions:hover{
+.diets-to-questions:hover{
   color: #E2A83B;
   background: #EAE7DC;
   transition: all 300ms ease-in-out;
@@ -188,7 +198,7 @@
 .diets-home {
   display: inline-block;
   height: auto;
-  width: 100%;
+  width: 90%;
   padding: 1.5rem;
   color: #FFFBEF;
   text-align: center;
@@ -210,10 +220,12 @@
   outline: 0.5rem solid #E2A83B;
 }
 
-.water-questions {
+/* WATER CONTROLS */
+
+.water-to-questions {
   display: inline-block;
   height: auto;
-  width: 100%;
+  width: 90%;
   padding: 1.5rem;
   color: #73D2DE;
   text-align: center;
@@ -228,7 +240,7 @@
   margin-top: 2rem;
 }
 
-.water-questions:hover{
+.water-to-questions:hover{
   color: #64B6C1;
   background: #EAE7DC;
   transition: all 300ms ease-in-out;
@@ -238,7 +250,7 @@
 .water-home {
   display: inline-block;
   height: auto;
-  width: 100%;
+  width: 90%;
   padding: 1.5rem;
   color: #FFFBEF;
   text-align: center;
@@ -259,6 +271,137 @@
   transition: all 300ms ease-in-out;
   outline: 0.5rem solid #64B6C1;
 }
+
+/* CARBS QUESTIONS */
+
+.carbs-question {
+  margin: 8rem 0 2rem 0;
+  color: #67BC67;
+}
+
+.carbs-answer {
+  height: 20rem;
+  background: #67BC67;
+  color: #FFFBEF;
+  font-size: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carbs-finish {
+  display: inline-block;
+  height: auto;
+  width: 100%;
+  padding: 1.5rem;
+  color: #67BC67;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #FFFBEF;
+  outline: 0.5rem solid #67BC67;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-top: 8rem;
+}
+
+.carbs-finish:hover {
+  color: #549954;
+  background: #EAE7DC;
+  transition: all 300ms ease-in-out;
+  outline: 0.5rem solid #549954;
+}
+
+/* DIETS QUESTIONS */
+
+.diets-question {
+  margin: 8rem 0 2rem 0;
+  color: #FFBC42;
+}
+
+.diets-answer {
+  height: 20rem;
+  background: #FFBC42;
+  color: #FFFBEF;
+  font-size: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.diets-finish {
+  display: inline-block;
+  height: auto;
+  width: 100%;
+  padding: 1.5rem;
+  color: #FFBC42;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #FFFBEF;
+  outline: 0.5rem solid #FFBC42;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-top: 8rem;
+}
+
+.diets-finish:hover {
+  color: #E2A83B;
+  background: #EAE7DC;
+  transition: all 300ms ease-in-out;
+  outline: 0.5rem solid #E2A83B;
+}
+
+/* WATER QUESTIONS */
+
+.water-question {
+  margin: 8rem 0 2rem 0;
+  color: #73D2DE;
+}
+
+.water-answer {
+  height: 20rem;
+  background: #73D2DE;
+  color: #FFFBEF;
+  font-size: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.water-finish {
+  display: inline-block;
+  height: auto;
+  width: 100%;
+  padding: 1.5rem;
+  color: #73D2DE;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #FFFBEF;
+  outline: 0.5rem solid #73D2DE;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-top: 8rem;
+}
+
+.water-finish:hover {
+  color: #64B6C1;
+  background: #EAE7DC;
+  transition: all 300ms ease-in-out;
+  outline: 0.5rem solid #64B6C1;
+}
+
+/* FOOTER */
 
 .footer {
   background: #FF7572;
