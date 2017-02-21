@@ -81,7 +81,8 @@ ul.responses li.incorrect p span {
 }
 
 .quizResults h3 {
-    margin: 0;
+    margin: 4rem 0;
+    text-align: center;
 }
 .quizResults h3 span {
     font-weight: normal;
@@ -90,6 +91,7 @@ ul.responses li.incorrect p span {
 .quizResultsCopy {
     clear: both;
     margin-top: 2rem;
+    text-align: center;
 }
 
 /* LABELS */

@@ -610,11 +610,13 @@
                     $(_quizLevel).remove()
                 } else {
                     var levels    = [
-                                        quizValues.info.level1, // 80-100%
-                                        quizValues.info.level2, // 60-79%
-                                        quizValues.info.level3, // 40-59%
-                                        quizValues.info.level4, // 20-39%
-                                        quizValues.info.level5  // 0-19%
+                                        quizValues.info.level1, // 84-100%
+                                        quizValues.info.level2, // 68-83%
+                                        quizValues.info.level3, // 51-67%
+                                        quizValues.info.level4, // 34-50%
+                                        quizValues.info.level5, // 18-33%
+                                        quizValues.info.level6, // 0-17%
+                                        quizValues.info.level7  // 0%
                                     ],
                         levelRank = plugin.method.calculateLevel(score),
                         levelText = $.isNumeric(levelRank) ? levels[levelRank] : '';
@@ -660,15 +662,19 @@
                 var percent = (correctAnswers / questionCount).toFixed(2),
                     level   = null;
 
-                if (plugin.method.inRange(0, 0.20, percent)) {
+                if (plugin.method.inRange(0, 0.16, percent)) {
+                    level = 6;
+                } else if (plugin.method.inRange(0.17, 0.32, percent)) {
+                    level = 5;
+                } else if (plugin.method.inRange(0.33, 0.49, percent)) {
                     level = 4;
-                } else if (plugin.method.inRange(0.21, 0.40, percent)) {
+                } else if (plugin.method.inRange(0.50, 0.66, percent)) {
                     level = 3;
-                } else if (plugin.method.inRange(0.41, 0.60, percent)) {
+                } else if (plugin.method.inRange(0.67, 0.82, percent)) {
                     level = 2;
-                } else if (plugin.method.inRange(0.61, 0.80, percent)) {
+                } else if (plugin.method.inRange(0.83, 0.99, percent)) {
                     level = 1;
-                } else if (plugin.method.inRange(0.81, 1.00, percent)) {
+                } else if (plugin.method.inRange(1.00, 1.00, percent)) {
                     level = 0;
                 }
 

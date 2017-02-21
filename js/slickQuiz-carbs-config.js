@@ -7,11 +7,13 @@ var quizJSON = {
         "name":    "Test Your Knowledge - Carbohydrates",
         "main":    "<h5>Test your knowledge!</h5>",
         "results": "<h5>Learn More</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p>",
-        "level1":  "Jeopardy Ready",
-        "level2":  "Jeopardy Contender",
-        "level3":  "Jeopardy Amateur",
-        "level4":  "Jeopardy Newb",
-        "level5":  "Stay in school, kid..." // no comma here
+        "level1":  "100%",
+        "level2":  "83%",
+        "level3":  "67%",
+        "level4":  "50%",
+        "level5":  "33%",
+        "level6":  "17%",
+        "level7":  "0%" // no comma here
     },
     "questions": [
         { // Question 1
