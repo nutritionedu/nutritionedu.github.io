@@ -217,7 +217,7 @@ ul.responses li.incorrect p span {
 .carbs-to-questions {
   display: inline-block;
   height: auto;
-  width: 90%;
+  width: 100%;
   padding: 1.5rem;
   color: #67BC67;
   text-align: center;
@@ -242,7 +242,7 @@ ul.responses li.incorrect p span {
 .carbs-home {
   display: inline-block;
   height: auto;
-  width: 90%;
+  width: 100%;
   padding: 1.5rem;
   color: #FFFBEF;
   text-align: center;
@@ -269,7 +269,7 @@ ul.responses li.incorrect p span {
 .diets-to-questions {
   display: inline-block;
   height: auto;
-  width: 90%;
+  width: 100%;
   padding: 1.5rem;
   color: #FFBC42;
   text-align: center;
@@ -294,7 +294,7 @@ ul.responses li.incorrect p span {
 .diets-home {
   display: inline-block;
   height: auto;
-  width: 90%;
+  width: 100%;
   padding: 1.5rem;
   color: #FFFBEF;
   text-align: center;
@@ -321,7 +321,7 @@ ul.responses li.incorrect p span {
 .water-to-questions {
   display: inline-block;
   height: auto;
-  width: 90%;
+  width: 100%;
   padding: 1.5rem;
   color: #73D2DE;
   text-align: center;
@@ -346,7 +346,7 @@ ul.responses li.incorrect p span {
 .water-home {
   display: inline-block;
   height: auto;
-  width: 90%;
+  width: 100%;
   padding: 1.5rem;
   color: #FFFBEF;
   text-align: center;
