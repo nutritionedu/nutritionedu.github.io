@@ -404,6 +404,7 @@ ul.responses li.incorrect p span {
   outline: 0.5rem solid #67BC67;
   cursor: pointer;
   box-sizing: border-box;
+  margin-top: 2rem;
 }
 
 .carbs-finish:hover {

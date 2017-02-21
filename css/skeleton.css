@@ -179,14 +179,14 @@ input[type="button"] {
   height: auto;
   width: 30%;
   padding: 1.5rem;
-  color: #67BC67;
+  color: #000;
   text-align: center;
   font-size: 1.5rem;
   font-weight: 400;
   text-decoration: none;
   white-space: nowrap;
   background-color: #FFFBEF;
-  outline: 0.5rem solid #67BC67;
+  outline: 0.5rem solid #000;
   cursor: pointer;
   box-sizing: border-box;
   margin-top: 5rem;
@@ -201,10 +201,10 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #549954;
+  color: #000;
   background: #EAE7DC;
   transition: all 300ms ease-in-out;
-  outline: 0.5rem solid #549954;
+  outline: 0.5rem solid #000;
  }
 
 /* Forms
