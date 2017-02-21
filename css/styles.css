@@ -1,3 +1,97 @@
+.startQuiz {
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.tryAgain {
+    float: none;
+    margin: 2rem 0;
+}
+
+/* clearfix */
+.quizArea, .quizResults {
+    /*zoom: 1;*/
+}
+.quizArea:before, .quizArea:after, .quizResults:before, .quizResults:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    font-size: 0;
+}
+.quizArea:after, .quizResults:after {
+    clear: both;
+}
+
+.quizName {
+  text-align: center;
+}
+
+.quizDescription {
+  display: none;
+  text-align: center;
+  margin: 4rem 0 0 0;
+}
+
+.questionCount {
+    display: none;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.questionCount span {
+    font-weight: bold;
+}
+
+ol.questions {
+    margin-top: 5rem;
+    margin-left: 0;
+    text-align: center;
+}
+ol.questions li {
+    margin-left: 0;
+}
+
+ul.answers {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+ul.answers li {
+    display: inline-block;
+    margin: 0 2rem;
+    font-size: 1.8rem;
+}
+
+ul.responses li {
+    margin: 1rem 2rem 2rem;
+}
+
+ul.responses li p span {
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.complete ul.answers li.correct, ul.responses li.correct p span {
+    color: #6C9F2E;
+}
+ul.responses li.incorrect p span {
+    color: #B5121B;
+}
+
+.quizResults h3 {
+    margin: 0;
+}
+.quizResults h3 span {
+    font-weight: normal;
+    font-style: italic;
+}
+.quizResultsCopy {
+    clear: both;
+    margin-top: 2rem;
+}
+
 /* LABELS */
 
 .label-main {
@@ -277,6 +371,9 @@
 .carbs-question {
   margin: 8rem 0 2rem 0;
   color: #67BC67;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .carbs-answer {
@@ -305,7 +402,6 @@
   outline: 0.5rem solid #67BC67;
   cursor: pointer;
   box-sizing: border-box;
-  margin-top: 8rem;
 }
 
 .carbs-finish:hover {
