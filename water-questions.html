@@ -4,8 +4,10 @@
     <meta charset="utf-8">
     <title>Got Enough Water?</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slickQuiz.css">
     <link rel="stylesheet" href="css/styles.css">
 
     <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
@@ -13,7 +15,51 @@
     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%;}</style>
   </head>
 
-  <body class="wrapper"style="background: #FFFBEF;">
+  <body id="slickQuiz">
+
+          <div class="label-water">
+            <h4 class="quizName"><!-- where the quiz name goes --></h4>
+          </div>
+
+          <div class="container">
+          <div class="row">
+          <div class="twelve columns water-questions">
+
+          <div class="quizArea">
+
+              <div class="quizHeader">
+                  <!-- where the quiz main copy goes -->
+
+                  <a class="four columns offset-by-four water-finish startQuiz" href="#">Get Started!</a>
+              </div>
+
+              <!-- where the quiz gets built -->
+          </div>
+
+          <div class="quizResults">
+              <h3 class="quizScore">You Scored: <span><!-- where the quiz score goes --></span></h3>
+
+              <h3 class="quizLevel"><strong>Grade:</strong> <span><!-- where the quiz ranking level goes --></span></h3>
+
+              <div class="quizResultsCopy">
+                  <!-- where the quiz result copy goes -->
+              </div>
+
+              <a class="four columns offset-by-four water-finish"href="index.html">Return to Home</a>
+
+          </div>
+
+          <script src="js/jquery.js"></script>
+          <script src="js/slickQuiz-water-config.js"></script>
+          <script src="js/slickQuiz-water.js"></script>
+          <script src="js/master.js"></script>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+  <!--<body class="wrapper"style="background: #FFFBEF;">
 
 
     <div class="label-water">
@@ -116,5 +162,5 @@
     All Rights Reserved © 2017
     </div>
 
-  </body>
+  </body>-->
 </html>
