@@ -6,7 +6,7 @@ var quizJSON = {
     "info": {
         "name":    "Test Your Knowledge - Carbohydrates",
         "main":    "<h5>Test your knowledge!</h5>",
-        "results": "<h5>Answers</h5><p>1. Fats, Lipids, and Carbs<br>2. 3-5g/kg<br>3. One Slice of Bread<br>4. > or = 70%<br>5. True<br>6. 3 Ounces of Baby Carrots</p>",
+        "results": "<h5>Answers</h5><ol><li>Fats, Lipids, and Carbs</li><li>3-5 g/kg</li><li>One Slice of Bread</li><li>> or = 70%</li><li>True</li><li>3 Ounces of Baby Carrots</li></ol>",
         "level1":  "100%",
         "level2":  "83%",
         "level3":  "67%",

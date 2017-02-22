@@ -6,7 +6,7 @@ var quizJSON = {
     "info": {
         "name":    "Test Your Knowledge - Diets",
         "main":    "<h5>Test your knowledge!</h5>",
-        "results": "<h5>Learn More</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p>",
+        "results": "<h5>Answers</h5><ol><li>20g (induction)<br>50g (maintenance)</li><li>< 30% cal from fat</li><li>False</li><li>2000 cal + 2.5 hr/week</li></ol>",
         "level1":  "100%",
         "level2":  "75%",
         "level3":  "50%",
@@ -48,7 +48,7 @@ var quizJSON = {
             "incorrect": "<p><span>Wrong!</span></p>" // no comma here
         },
         { // Question 4
-            "q": "According to the American Heart Association, what is the percentage of maximum heart rate in a moderate exercise?",
+            "q": "According to the USDA's Super Tracker, what is the average amount of calories to consume per day and the recommended amount of time for exercise each week?",
             "a": [
                 {"option": "2000 cal + 2.5 hr/week",    "correct": true},
                 {"option": "4000 cal + 5 hr/week",      "correct": false},
